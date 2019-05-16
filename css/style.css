@@ -1,0 +1,574 @@
+
+
+
+/* start main rule*/
+
+body{
+
+	
+	margin:0px;
+	padding:0px;
+	
+	
+}
+
+
+.contatiner{
+	width:1160;
+	margin:auto;
+}
+
+.clearall {
+	clear:both;
+}
+/* end main rule*/
+
+
+
+/* start header */
+
+
+.header .slider{
+	background-image:url("../images/sliderimg2.jpg");
+	background-size:cover;
+	height:600px;
+}
+
+.header .slider .intro{
+	padding:200px;
+	text-align:center;
+	color:#fff;
+	
+}
+
+.header .slider .intro h2{
+	margin:0 auto;
+	font-size:50px;
+	width:750px;
+	text-transform:capitalize;
+	border-top:4px solid #fff;
+	border-bottom:4px solid #fff;
+	padding:10px;
+}
+
+.header .slider .intro button{
+	color:#fff;
+	background:none;
+	margin-top:30px;
+	font-size:20px;
+	
+	border:2px solid #fff;
+	font-weight:bold;
+	
+	padding :10px 40px;
+	
+	
+}
+
+.header .navbar {
+	background:#000;
+	color:#fff;
+	overflow:hidden;
+}
+
+.header .navbar h2{
+	float:left;
+	text-transform:uppercase;
+	margin-top:10px;
+}
+.header .navbar h2 span{
+	color : #0f3;
+}
+
+.header .navbar ul {
+	list-style:none;
+	float :right;
+	
+}
+
+.header .navbar li{
+	
+	float:left;
+	overflow:hidden;
+	margin-left:15px;
+	font-size:22px;
+}     
+
+
+.header .navbar li a{
+	text-decoration:none;
+	color:#fff;
+	text-transform:capitalize;
+}
+
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{
+	color:#30B576;
+}
+
+/* end header */
+
+
+
+/*start fetures*/
+.fetures{
+	
+	padding-top:30px;
+	padding-bottom:30px;
+	overflow:hidden;
+	
+}
+
+.fetures .box{
+	float: left;
+	width:33.33333%;
+	height:150px;
+	
+}
+
+.fetures .box h2{
+	
+	
+}
+
+.fetures .box p{
+	line-height:1.5em;
+	padding:0 20px 0 0;
+}
+
+
+
+/*end fetures*/
+
+
+
+/*start about-me*/
+
+.aboutme {
+	overflow:hidden;
+	background-color:#f2f2f2;
+	color:black;
+	
+	
+}
+
+.aboutme .image{
+	width:40%;
+	float:left;
+}
+
+.aboutme .image img{
+	width:100%;
+	
+}
+
+.aboutme .discription-area{
+	width:60%;
+	float:left;
+}
+
+.aboutme .discription-area h2{
+	margin:15px 0 20px 40px;
+}
+
+.aboutme .discription-area >p{
+	margin:0 0 10px 40px;
+	line-height:1.7em;
+	color:#666;
+}
+
+aboutme .discription-area >p:last-of-type{
+	margin-top:20px;
+}
+
+
+.aboutme .discription-area  .hopies{
+	overflow:hidden;
+	margin: 15px 0 0 40px;
+}
+
+.aboutme .discription-area  .hopies .box{
+	float:left;
+	width:50%;
+	min-height:122px; 
+	
+}
+.aboutme .discription-area  .hopies .box .icon{
+	width:12%;
+	margin-right:5%;
+}
+
+.aboutme .discription-area  .hopies .box .icon img{
+	float:left;
+	width:100%;
+	margin:30px 10px 0 0;
+	
+}
+
+.aboutme .discription-area  .hopies .box .text{
+	float:left;
+	width:83%;
+	
+}
+
+.aboutme .discription-area  .hopies .box .text h3{margin:0;text-transform:capitalize;}
+.aboutme .discription-area  .hopies .box .text p{margin:0;line-height:1.7em;}
+
+/*end about-me*/
+
+
+
+/*start my skilles*/
+
+.my-skilles{
+	padding-top:30px;
+	padding-bottom:60px;
+	overflow:hidden;
+}
+
+.my-skilles .skeilles{
+	width:50%;
+	float:left;
+}
+
+
+.my-skilles .skeilles h2{
+	margin:15px 0 20px 40px;
+}
+
+.my-skilles .skeilles >p{
+	margin:0 0 10px 40px;
+	line-height:1.7em;
+	color:#666;
+}
+
+.my-skilles .skeilles >p:last-of-type{
+	margin-top:20px;
+}
+
+.my-skilles .skeilles button{
+	
+	margin-left:40px;
+	margin-top:20px;
+	
+
+}
+
+.my-skilles .prograss{
+	margin-left:5%;
+	width:45%;
+	float:left;
+}
+
+.my-skilles .prograss .subject div{
+	height:25px;
+	background-color:#f2f2f2;
+}
+
+.my-skilles .prograss .subject div span{
+	background-color:#2dcc70;
+	display:block;
+	text-align:right;
+	line-height:25px;
+}
+/*end my skilles*/
+
+
+/*start resume*/
+
+.resume{
+	background:#f2f2f2;
+	padding-top:30px;
+	padding-bottom:30px; 
+	text-align:center;
+}
+
+.resume h2{
+	color:#666;
+	text-transform:uppercase;
+}
+
+.resume p{
+	line-height:1.7em;
+	padding:0 40px;
+	color:#555;
+	
+}
+
+.resume button{
+	margin-top:25px;
+}
+
+
+/*end resume*/
+
+
+/*start my education*/
+
+.my-education{
+	padding-top:30px;
+	padding-bottom:30px;
+	overflow:hidden;
+}
+
+.my-education  hr{background-color:#aaa;margin:10px 0; border:0;height:1px;}
+
+.my-education .main{
+	width:47%;
+	float:left;
+	margin-right:5%;
+	
+}
+.my-education .exp{
+	width:47%;
+	float:left;
+}
+
+.my-education .exp h3{
+	margin-top:60px;
+	margin-bottom:10px;
+}
+
+
+.my-education .exp span{
+	display:block;
+	margin-bottom:10px;
+	
+}
+
+.my-education .exp span:first-of-type{
+	color:#999;
+}
+
+.my-education .exp span:last-of-type{
+	color:#fff;
+	background:#2dcc70;
+	display:inline-block;
+	padding: 4px 10px;
+}
+
+.my-education .exp p{
+	line-height:1.7em;
+	color:#666;
+}
+
+
+
+/*end my education*/
+
+
+
+
+
+
+/*start testmonial*/
+
+.testmonial{
+	background:#f2f2f2;
+	padding-top:30px;
+	padding-bottom:30px; 
+	text-align:center;
+}
+
+.testmonial q{
+	color:#777;
+	font:italic bold 18px/1.7 Arial tahoma;
+}
+
+.testmonial h3{
+	color:#555;
+	text-align:center;
+}
+
+.testmonial ul{list-style:none;text-align:center;margin-right:25px;margin-top:30px;}
+
+.testmonial li{
+	margin-right:10px;
+	width:7px;
+	height:7px;
+	border:2px solid #2dcc70;
+	display:inline-block;
+	border-radius:50%;
+	cursor:pointer;
+}
+
+.testmonial li.active,
+.testmonial li:hover{
+	background-color:#2dcc70;
+}
+
+/*end testmonial*/
+
+
+
+
+/*start portfolli*/
+
+	.portfolio{
+		
+		
+		padding-top:30px;
+		padding-bottom:30px; 
+		text-align:center;
+		
+	}
+	
+	.portfolio h2{
+		color:#777;
+	}
+	
+	.portfolio p{
+		line-height:1.7em;
+		color:#666;
+		margin:10 0;
+		padding:10px 40px;
+	}
+	.portfolio .my-work{
+		overflow:hidden;
+	}
+	
+	.portfolio .my-work > div{
+		
+		width:33.333333%;
+		float: left;
+		margin-bottom:15px;
+	}
+	
+	.portfolio .my-work > div img{
+		width:92%;
+		margin:10px;
+		padding:3px;
+		background-color:#fff;
+		border:1px solid #ccc;
+	}
+
+
+/*end portfolli*/
+
+
+
+
+/*start contact me*/
+
+.contact-me
+ {
+	overflow:hidden;
+	background-color: #252f51 ;
+}
+
+.contact-me h2{
+	color:#fff;
+	margin-left:40px;
+}
+
+
+.contact-me .info{
+	width:47%;
+	float:left;
+	margin-right:6%;
+}
+
+.contact-me .info p{
+	color:#6a6e71;
+	margin-left:40px;
+	line-height:1.7em;
+}
+.contact-me .info p strong{
+	color:#d1d6da;
+}
+.contact-me .form{
+	width:47%;
+	float:left;
+	margin-top:15px;
+} 
+
+.contact-me .form label{
+	display:block;
+	color:#d1d6da;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.contact-me .form input[type="text"]{
+	width:80%;
+	color:#fff;
+	background-color:#4b5557;
+	border:0;
+	padding:10px;
+}
+
+.contact-me .form textarea{
+	width:80%;
+	color:#fff;
+	background-color:#4b5557;
+	border:0;
+	padding:10px;
+	height:150px;
+	display:block;
+}
+
+.contact-me .form input[type="submit"]{
+	background-color:#191e22;
+	color:#fff;
+	border:0; 
+	padding:10px 20px;;
+	margin-top:10px;
+}
+
+
+/*end contact me*/
+
+
+/*start footer*/
+
+.footer{
+	background-color:#191e22;
+	color:6a6e71;
+	text-align:center;
+}
+
+.footer ul{
+	list-style:none;
+	padding:0;
+	overflow:hidden;
+	text-align:center;
+	
+}
+.footer ul li{
+	display:inline-block;
+	margin-right:10px;
+}
+.footer ul li img{
+	width:24px;
+	height:24px;
+}
+
+
+
+/*end footer*/
+
+
+
+
+
+
+/*start framwork*/
+
+
+.my-button{
+	
+	border:3px solid #2dcc70;
+	background:none;
+	color:#2dcc70;
+	padding: 10px 30px;
+}
+
+
+
+
+
+
+
+
+/*end framwork*/
